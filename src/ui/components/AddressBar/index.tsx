@@ -19,7 +19,7 @@ export function AddressBar() {
         });
       }}>
       <Icon icon="copy" color="textDim" />
-      <Text text={shortAddress(address)} color="textDim" />
+      <Text text={address} color="textDim" />
     </Row>
   );
 }
